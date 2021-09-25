@@ -1,0 +1,36 @@
+#symbol_map {
+	top:100px;
+	bottom: 100px; 
+	left: 100px;
+	right: 100px;
+	/*height: 600px;
+	width: 600px;*/
+}
+
+h1 {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#secretDiv {
+	opacity: 0;
+	font-size: large;
+	font-family: sans-serif;
+	padding-right: 6%;
+}
+
+#secretDiv:hover {
+	opacity: 1;
+	animation-name: cshift;
+	animation-duration: 1000ms;
+	animation-iteration-count: infinite;
+}
+
+@keyframes cshift {
+	0% {color:#b4d455;}
+	20% {color:#ff00ef;}
+	40% {color:#6a7e25;}
+	60% {color:#0010ff;}
+	80% {color:#806e28;}
+	100% {color:#b4d455;}
+   }
