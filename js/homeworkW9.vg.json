@@ -9,7 +9,7 @@
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/JeremyrabUni/HomeworkW9/main/data/suburbsCut.topojson",
+        "url": "data/suburbsCut.topojson",
         "format": {
           "type": "topojson",
           "feature": "states"
@@ -23,7 +23,7 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/JeremyrabUni/HomeworkW9/main/data/yarra-significant-trees-fixed.csv"
+        "url": "data/yarra-significant-trees-fixed.csv"
       },
       "mark": "circle",
       "encoding": {
